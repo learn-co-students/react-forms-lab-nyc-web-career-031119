@@ -90,6 +90,7 @@ describe("<LoginForm />", () => {
       wrapper.find("#username").simulate("change", {
         target: { name: "username", id: "username", value: "johndoe" }
       });
+      console.log(wrapper.find("#username"));
       wrapper.find("#password").simulate("change", {
         target: {
           name: "password",
