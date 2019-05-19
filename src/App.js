@@ -11,7 +11,6 @@ class App extends Component {
   render() {
     return (
       <div>
-
         <h1>
           <pre>LoginForm</pre>
         </h1>
@@ -21,8 +20,6 @@ class App extends Component {
           <pre>TwitterMessage</pre>
         </h1>
         <TwitterMessage maxChars={140} />
-
-
 
       </div>
     )
